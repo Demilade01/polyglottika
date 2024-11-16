@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.custom_blur {
+  backdrop-filter: blur(30px);
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+.apexcharts-legend {
+  display: none !important;
+}
